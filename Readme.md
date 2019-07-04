@@ -2,6 +2,8 @@
 
 As of Version 7/4/2019, the program supports 31 champions(increasing).
 
+
+
 **Required dependencies:**
 Opencv, Tensorflow, Numpy, PIL
 
@@ -56,5 +58,5 @@ The training data are kept in /data/, train_images.npy (11253,24,24,3), test_ima
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzM2Njg2NV19
+eyJoaXN0b3J5IjpbLTExNzk4NTQ2MDMsMTE2NzM2Njg2NV19
 -->

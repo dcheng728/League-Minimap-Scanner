@@ -2,7 +2,7 @@
 
 As of Version 7/4/2019, the program supports 31 champions(increasing).
 
-![](league-minimap-scanner-demo.gif)
+![](demo.gif)
 
 **Required dependencies:**
 Opencv, Tensorflow, Numpy, PIL
@@ -58,5 +58,5 @@ The training data are kept in /data/, train_images.npy (11253,24,24,3), test_ima
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTE3Nzk3M119
+eyJoaXN0b3J5IjpbNjgxOTU2MDU0LDE5NjUxNzc5NzNdfQ==
 -->

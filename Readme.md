@@ -58,5 +58,5 @@ The training data are kept in /data/, train_images.npy (11253,24,24,3), test_ima
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTE3Nzk3MywxNDc3MDgyNDUwXX0=
+eyJoaXN0b3J5IjpbMTk2NTE3Nzk3M119
 -->

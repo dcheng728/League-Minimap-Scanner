@@ -50,18 +50,18 @@ After processing the image, the only inputs to the Neural Network are five 24*24
 
 ## Neural Network
 
-The neural network is trained on 31 champions with roughly 360 images each. The size of training images numpy is (11253,24,24,3) and such for test images is (9456,24,24,3). To collect the data, an AutoHotKey  script was written. Once initiated, the script would start a training game from the League of Legends  Client, select friendly champion and enemy champion and start the game with a python program constantly  grabbing the [805:1080,1645:1920] pixels of the monitor. Then the script will process the images itself  and cut out the champions' portraits automatically.
+The neural network is trained on 31 champions with roughly 360 images each. The size of training images numpy is (19000+,24,24,3) and such for test images is (1000+,24,24,3). To collect the data, an AutoHotKey  script was written. Once initiated, the script would start a training game from the League of Legends  Client, select friendly champion and enemy champion and start the game with a python program constantly  grabbing the [805:1080,1645:1920] pixels of the monitor. Then the script will process the images itself  and cut out the champions' portraits automatically.
 
 The advantage to this approach is a small training dataset size and fast training. The over 20,000
 images only took up 35MB of space when saved as ".npy" files. Training the NN for 10 epochs took less  than 30 seconds on a gaming laptop.
 
 A weakness of the data collecting method is the deficiency of champions to choose from in League of Legends' practicetool. To collect training samples of all champions, the screen-grabbing program would have to overlook actual games, and the champion portraits might need to be labeled manually. In future versions, this algorithm will learn to recognize more champions, and I will be able to justify playing  League of Legends as "researching" :)
 
-The training data are kept in /data/, train_images.npy (11253,24,24,3), test_images.npy (9456,24,24,3).
+The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_images.npy (1000+,24,24,3).
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA2MTY1MjFdfQ==
+eyJoaXN0b3J5IjpbLTIxMTQ4MzY3MTddfQ==
 -->

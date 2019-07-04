@@ -1,6 +1,12 @@
 # League Map Scanner (V 1.0.0)
 
-As of Version 7/4/2019, the program supports 31 champions(increasing).
+
+**Data V1.0.0**
+As of Version 7/4/2019, the program supports 31 champions:   (order corresponds to output position from CNN)
+
+['ashe', 'blitzcrank', 'brand', 'caitlyn', 'cassiopeia', 'darius', 'drmundo', 'ezreal', 'fiddlestick',' garen', 'graves', 'jax', 'karthus', 'kayle', 'malphite', 'nasus', 'nidalee', 'renekton', 'ryze', 'shen',' sivir', 'soraka', 'tristana', 'trundle', 'udyr', 'vladimir', 'warwick', 'wukong', 'ziggs', 'zilean', 'zyra']
+
+https://drive.google.com/drive/folders/1Yg0pzLheTi2sPPF1HU7qiXxPSZyb3_th?usp=sharing(increasing).
 I will keep updating the algorithm to support more champions and increase the accuracy :)
 
 
@@ -21,6 +27,7 @@ Opencv, Tensorflow, Numpy, PIL
 	    conda install -c conda-forge numpy
 	    conda install -c conda-forge tensorflow
 	    conda install -c conda-forge pillow
+
 
 ## Overview
 
@@ -63,5 +70,5 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ4MzY3MTddfQ==
+eyJoaXN0b3J5IjpbLTY2MjQ5NDUyOCwtMjExNDgzNjcxN119
 -->

@@ -27,7 +27,7 @@ Opencv, Tensorflow, Numpy, PIL
 	    conda install -c conda-forge numpy
 	    conda install -c conda-forge tensorflow
 	    conda install -c conda-forge pillow
-
+3. Clone [League Minimap Scanner v 1.0.0](https://github.com/dcheng728/League-Minimap-Scanner/tree/master/League%20Minimap%20Scanner%20v%201.0.0 "League Minimap Scanner v 1.0.0") from this repository, and run liveidentify.py once you finished downloading.
 
 ## Overview
 
@@ -70,5 +70,5 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjQ5NDUyOCwtMjExNDgzNjcxN119
+eyJoaXN0b3J5IjpbNTU1ODkxNjY3XX0=
 -->

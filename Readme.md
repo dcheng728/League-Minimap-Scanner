@@ -1,6 +1,7 @@
 # League Map Scanner (V 1.0.0)
 
 As of Version 7/4/2019, the program supports 31 champions(increasing).
+I will keep updating the algorithm to support more champions and increase the accuracy :)
 
 
 
@@ -62,5 +63,5 @@ The training data are kept in /data/, train_images.npy (11253,24,24,3), test_ima
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE3NTUxNzhdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA2MTY1MjFdfQ==
 -->

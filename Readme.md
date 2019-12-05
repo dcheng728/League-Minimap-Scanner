@@ -228,24 +228,15 @@ The Algorithm is composed of 2 parts:</p>
 
 1: Image Processing ( <a href="http://process.py">process.py</a> , <a href="http://live.py">live.py</a> )</p>
 <p>2: Neural Network Evaluation ( <a href="http://image2numpy.py">image2numpy.py</a> , <a href="http://cnn.py">cnn.py</a> , <a href="http://evaluate.py">evaluate.py</a> )</p>
-<h2 id="image-processing">process.py , live.py )
-
-2: Neural Network Evaluation ( image2numpy.py , cnn.py , evaluate.py )
 
 
 
 ## Image Processing</h2>
 <p>
 
-The Image Processing component is responsible for preprocessing the minimap images before feeding it into the neural network. To reduce the computational cost of the neural network, the preprocessing  component will cut out the minimap regions where a champion icon’'s ring is detected using Opencv, whose process is as follows:</p>
-<ol>
-<li>
-<p>
+The Image Processing component is responsible for preprocessing the minimap images before feeding it into the neural network. To reduce the computational cost of the neural network, the preprocessing  component will cut out the minimap regions where a champion icon’'s ring is detected using Opencv, whose process is as follows:
 
-1. split 3-d image into b,g,r channels</p>
-</li>
-<li>
-<p>
+1. split 3-d image into b,g,r channels
 
 2. use inRange function to binarize the b,g,r channels
 
@@ -277,5 +268,5 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjA5MTA1N119
+eyJoaXN0b3J5IjpbLTQxMjc5MzY5NF19
 -->

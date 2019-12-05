@@ -39,6 +39,28 @@ The Algorithm is composed of 2 parts:
 
 2: Neural Network Evaluation ( image2numpy.py , cnn.py , evaluate.py )
 
+***A Diagram of the Algorithm***
+
+```mermaid
+graph LR
+A[Minimap] --> B((OPENCV Image Processing))
+B --> D[Champion A]
+B --> E[Champion B]
+B --> F[Champion C]
+B --> G[Champion D]
+B --> H[Champion E]
+D--> L{Neural Network}
+E --> L{Neural Network}
+F --> L{Neural Network}
+G --> L{Neural Network}
+H --> L{Neural Network}
+L --> Q[Riven]
+L --> R[Elise]
+L --> S[Ryze]
+L --> T[Kai'sa]
+L --> U[Alistar]
+```
+
 ## Image Processing
 
 The Image Processing component is responsible for preprocessing the minimap images before feeding it into the neural network. To reduce the computational cost of the neural network, the preprocessing  component will cut out the minimap regions where a champion icon's ring is detected using Opencv, whose process is as follows:
@@ -70,5 +92,6 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1ODkxNjY3LDEwOTkxMzMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTU3MzE4MTczMiw1NTU4OTE2NjcsMTA5OT
+EzMzMzOF19
 -->

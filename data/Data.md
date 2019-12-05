@@ -202,16 +202,15 @@ L --> U[Alistar]
 </li>
 <li>
 <p>
-2. Type in the following code in terminal:</p>
-<pre><code>
+2. Type in the following code in terminal:
 
-	    conda install -c conda-forge opencv
-	    conda install -c conda-forge numpy
-	    conda install -c conda-forge tensorflow
-	    conda install -c conda-forge pillow
-</code></pre>
-</li>
-<li>
+```javascript
+conda install -c conda-forge opencv
+conda install -c conda-forge numpy
+conda install -c conda-forge tensorflow
+conda install -c conda-forge pillow
+conda install -c anaconda pil
+```
 <p>Clone <a href="3. Clone [League Minimap Scanner v 1.0.0](https://github.com/dcheng728/League-Minimap-Scanner/tree/master/League%20Minimap%20Scanner%20v%201.0.0" title= "League Minimap Scanner v 1.0.0">League Minimap Scanner v 1.0.0</a> from this repository, and run <a href="http://liveidentify.py">liveidentify.py</a> once you finished downloading.</p>
 </li>
 </ol>
@@ -268,6 +267,6 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjc5MzY5NCw1NTU4OTE2NjcsMTA5OT
-EzMzMzOF19
+eyJoaXN0b3J5IjpbMjMzNTEzNzIzLDU1NTg5MTY2NywxMDk5MT
+MzMzM4XX0=
 -->

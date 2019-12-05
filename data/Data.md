@@ -247,10 +247,7 @@ The Image Processing component is responsible for preprocessing the minimap imag
 <li>
 <p>
 
-2. use inRange function to binarize the b,g,r channels</p>
-</li>
-<li>
-<p>
+2. use inRange function to binarize the b,g,r channels
 
 3. deduct b and g from red channel to isolate the red channel (the color of enemy champions’' rings)
 
@@ -280,6 +277,6 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzQxNDYxNSw1NTU4OTE2NjcsMTA5OT
+eyJoaXN0b3J5IjpbMTM2NjA5MTA1Nyw1NTU4OTE2NjcsMTA5OT
 EzMzMzOF19
 -->

@@ -1,13 +1,4 @@
----
 
-
----
-
-<hr>
-<hr>
-
-<hr>
-<hr>
 <h1 id="league-map-scanner-v-1.0.0">League Map Scanner (V 1.0.0)</h1>
 <p><strong>Data V1.0.0</strong><br>
 As of Version 7/4/2019, the program supports 31 champions:   (order corresponds to output position from CNN)</p>
@@ -261,20 +252,11 @@ The Image Processing component is responsible for preprocessing the minimap imag
 <li>
 <p>
 
-3. deduct b and g from red channel to isolate the red channel (the color of enemy champions’' rings)</p>
-</li>
-<li>
-<p>
+3. deduct b and g from red channel to isolate the red channel (the color of enemy champions’' rings)
 
-4. Run HoughCircles function to detect the red circles in red channel</p>
-</li>
-<li>
-<p>
+4. Run HoughCircles function to detect the red circles in red channel
 
-5. Cut out squares based on coordinates of the circles and output them</p>
-</li>
-</ol>
-<p>
+5. Cut out squares based on coordinates of the circles and output them
 
 After processing the image, the only inputs to the Neural Network are five 24*24 numpy arrays, which is much more computationally efficient compared to running object detection NN over the entire  minimap.</p>
 <h2 id="neural-network">
@@ -298,5 +280,5 @@ The training data are kept in /data/, train_images.npy (19000+,24,24,3), test_im
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM1MTI3MDRdfQ==
+eyJoaXN0b3J5IjpbMTI2NzQxNDYxNV19
 -->
